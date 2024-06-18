@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 export const jwtConstants = {
-    secret: 'Batatinha',
+    secret: process.env.password,
   };
